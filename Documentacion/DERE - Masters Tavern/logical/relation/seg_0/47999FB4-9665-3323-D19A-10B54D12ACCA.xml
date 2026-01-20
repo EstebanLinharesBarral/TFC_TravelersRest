@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Campaña-Sesiones" directorySegmentName="seg_0" id="47999FB4-9665-3323-D19A-10B54D12ACCA">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-19 09:48:35 UTC</createdTime>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<engineerTo>
+<item key="167EC7C1-97EE-1CA9-BB92-11C813D6279A" value="true"/>
+</engineerTo>
+<sourcePk>9E9791EC-47AA-F0E4-4EDC-9D03B326E5D4</sourcePk>
+<targetPk>EC3E35F0-669A-1B50-0BDE-44121AE54538</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>78E3AB9D-B6D7-5281-0AEB-9BD2CBC8CB47</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8AA02B7A-2336-9870-3E5B-1E497F8B45AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

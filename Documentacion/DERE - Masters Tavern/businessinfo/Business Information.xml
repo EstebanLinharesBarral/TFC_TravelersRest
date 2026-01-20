@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="5C696864-D80A-2FC5-E2F7-0E7821B2C1C9">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-19 09:03:48 UTC</createdTime>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

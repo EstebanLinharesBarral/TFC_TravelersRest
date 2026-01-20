@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B5127E3-73CE-6BB1-F906-B7FD9F79EC15" name="Armaduras">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-20 09:50:08 UTC</createdTime>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<engineerTo>
+<item key="167EC7C1-97EE-1CA9-BB92-11C813D6279A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="AF299DCA-09FC-DBED-3F56-5911FD9B4609">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-20 09:50:15 UTC</createdTime>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<engineerTo>
+<item key="167EC7C1-97EE-1CA9-BB92-11C813D6279A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="A5990B1D-1326-05A4-6F7D-FA8EE992F7C9">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-20 09:50:30 UTC</createdTime>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<engineerTo>
+<item key="167EC7C1-97EE-1CA9-BB92-11C813D6279A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="00579C9B-3398-24AB-F0A4-81DE43FCC7AA">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-20 09:50:47 UTC</createdTime>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<engineerTo>
+<item key="167EC7C1-97EE-1CA9-BB92-11C813D6279A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CA" id="D9FAB72E-5A95-6458-1653-EA9CC693F294">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-20 09:55:54 UTC</createdTime>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<engineerTo>
+<item key="167EC7C1-97EE-1CA9-BB92-11C813D6279A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sigilo" id="20789FB3-F9E5-FBE6-0363-979A0621040B">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-20 09:56:13 UTC</createdTime>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<engineerTo>
+<item key="167EC7C1-97EE-1CA9-BB92-11C813D6279A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Extra" id="57E04CA0-3CA7-37F2-B1E7-40D4DB582B6D">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-20 09:58:21 UTC</createdTime>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<engineerTo>
+<item key="167EC7C1-97EE-1CA9-BB92-11C813D6279A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Hoja" id="5B31DC42-92C5-183F-45F7-5EC6F9EFDC74">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-20 09:59:08 UTC</createdTime>
+<generatorID>270A4417-DEF0-2A84-B97B-56941935F20A</generatorID>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<engineerTo>
+<item key="167EC7C1-97EE-1CA9-BB92-11C813D6279A" value="true"/>
+</engineerTo>
+<referedAttribute>83CEDE80-0BF0-653E-9CFA-7D7117924E57</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Personaje" id="E762ACF9-F76C-63BC-9B86-0672C6261CEA">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-20 09:59:08 UTC</createdTime>
+<generatorID>270A4417-DEF0-2A84-B97B-56941935F20A</generatorID>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<engineerTo>
+<item key="167EC7C1-97EE-1CA9-BB92-11C813D6279A" value="true"/>
+</engineerTo>
+<referedAttribute>58A40015-A325-73E7-DB77-1427F1004F1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Usuario" id="F1C16B3D-C9E1-5EC1-7414-AA136C9A17F0">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-20 09:59:08 UTC</createdTime>
+<generatorID>270A4417-DEF0-2A84-B97B-56941935F20A</generatorID>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<engineerTo>
+<item key="167EC7C1-97EE-1CA9-BB92-11C813D6279A" value="true"/>
+</engineerTo>
+<referedAttribute>E669D396-7FDE-5264-B9CF-F1E6036E3801</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Campaña" id="EEDFCC9F-D1AF-B8FB-6970-88DEB8889C61">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-20 09:59:08 UTC</createdTime>
+<generatorID>270A4417-DEF0-2A84-B97B-56941935F20A</generatorID>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<engineerTo>
+<item key="167EC7C1-97EE-1CA9-BB92-11C813D6279A" value="true"/>
+</engineerTo>
+<referedAttribute>79E8B9AA-9581-C2E7-67C7-BC66B62CEEC8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="965BDAA2-184C-BDD9-5B98-99319A1E1D88" name="Armaduras PK">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-20 09:50:32 UTC</createdTime>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<engineerTo>
+<item key="167EC7C1-97EE-1CA9-BB92-11C813D6279A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF299DCA-09FC-DBED-3F56-5911FD9B4609</attributeRef>
+<attributeRef>5B31DC42-92C5-183F-45F7-5EC6F9EFDC74</attributeRef>
+<attributeRef>E762ACF9-F76C-63BC-9B86-0672C6261CEA</attributeRef>
+<attributeRef>F1C16B3D-C9E1-5EC1-7414-AA136C9A17F0</attributeRef>
+<attributeRef>EEDFCC9F-D1AF-B8FB-6970-88DEB8889C61</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

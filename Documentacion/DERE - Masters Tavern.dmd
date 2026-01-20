@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DERE - Masters Tavern" id="A60DF7C9-2643-1EBE-FAE4-D04C16C739D7" version="3.5">
+<createdBy>Judokaliba</createdBy>
+<createdTime>2026-01-19 09:03:47 UTC</createdTime>
+<ownerDesignName>DERE - Masters Tavern</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A60DF7C9-2643-1EBE-FAE4-D04C16C739D7</designId>
+</OSDM_Design>
