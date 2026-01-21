@@ -26,6 +26,9 @@ class Campaing(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    #Relationship data
+    users = models.ManyToManyField(User)
+
     class Meta:
         verbose_name_plural = "Campaings"
 
@@ -36,6 +39,9 @@ class Session(models.Model):
     start_date = models.DateTimeField(auto_now_add=True)
     end_date = models.DateTimeField(blank=True, null=True)
     summary = models.TextField(blank=True, null=True)
+
+    #Relationship data
+    campaing = models.ForeignKey(Campaing, on_delete=models.CASCADE)
 
     class Meta:
         verbose_name_plural = "Sessions"
@@ -59,6 +65,9 @@ class Character(models.Model):
     goodness = models.CharField(choices=Goodness.choices, default=Goodness.NEUTRAL)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    #Relationship data
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
 
     class Meta:
         verbose_name_plural = "Characters"
@@ -103,6 +112,10 @@ class CharSheet(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    #Relationship data
+    campaing = models.ForeignKey(Campaing, on_delete=models.CASCADE)
+    character = models.ForeignKey(Character, on_delete=models.CASCADE)
+
     class Meta:
         verbose_name_plural = "CharSheets"
 
@@ -117,6 +130,9 @@ class Weapon(models.Model):
     damage = models.CharField(choices=Damage.choices, default=Damage.SLASH)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    #Relationship data
+    charSheet = models.ForeignKey(CharSheet, on_delete=models.CASCADE)
 
     class Meta:
         verbose_name_plural = "Weapons"
@@ -138,8 +154,13 @@ class Armor(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    #Relationship data
+    charSheet = models.ForeignKey(CharSheet, on_delete=models.CASCADE)
+
     class Meta:
         verbose_name_plural = "Armors"
 
     def __str__(self):
         return self.name
+    
+#RELATIONSHIPS BETWEEN MODELS
