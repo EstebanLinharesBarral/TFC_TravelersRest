@@ -1,0 +1,44 @@
+.summarizer {
+    border: 2px solid #301B0F;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #E6D3B0;
+    box-shadow: 0 0 7px 0 rgb(0, 0, 0);
+}
+
+.summarizer_title {
+    padding: 0.5rem;
+
+    background-color: #301B0F;
+    font-family: 'ImFellEnglish';
+    font-size: 26px;
+    color: #E6D3B0;
+    font-weight: normal;
+    text-align: center;
+}
+
+.summarizer_content {
+    padding: 0.5rem;
+}
+
+h4 {
+    padding-bottom: 0.5rem;
+
+    font-family: 'Caudex';
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 2px solid #301B0F;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'ImFellEnglish';
+    src: url('../../fonts/ImFellEnglish/IMFellEnglish-Regular.ttf');
+}
+@font-face {
+    font-family: 'Caudex';
+    src: url('../../fonts/Caudex/Caudex-Bold.ttf');
+}
